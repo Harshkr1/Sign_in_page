@@ -1,0 +1,16 @@
+*{    border: 2px solid black;
+}
+body{
+    position: relative;
+    width: 98vw;
+    height: 100vh;
+}
+.root{
+    --button-color : #596D48;
+    --input-border : #E5E7EB;
+    --password-invalid-color: red;
+}
+@font-face {
+    font-family: Norse-bold;
+    src: url(./assets/fonts/Norse-Bold.otf);
+}

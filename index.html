@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-In Page</title>
+    <link rel="stylesheet" href="./style.css" >
+</head>
+<body>
+    <div class="main_container">
+        <div class="left">
+            <img src="./assets/images/halie-west-25xggax4bSA-unsplash.jpg" class="grass" alt="grass_image wid">
+            <div class="logo">
+                <img src="./assets/images/odin-lined.png" class="odin_logo" alt="odin-logo">
+                ODIN
+            </div>
+        </div>
+        <div class="right"></div>
+    </div>
+</body>
+<style>
+    .main_container{
+        height: 98vh;
+    }
+    *{    border: 2px solid black;
+    }
+    body{
+        position: relative;
+        width: 98vw;
+        height: 98vh;
+    }
+    .root{
+        --button-color : #596D48;
+        --input-border : #E5E7EB;
+        --password-invalid-color: red;  
+    }
+    @font-face {
+        font-family: Norse-bold;
+        src: url(./assets/fonts/Norse-Bold.otf);
+    }
+    .left{
+        height: 100%;
+        width:fit-content;
+    }
+    .odin_logo{
+        width:fit-content  ;
+        margin-right: 20px;
+    }
+    .logo{
+        display: flex   ;
+        justify-content: center;
+        align-content:center;
+        position: absolute;
+        top: 100px;
+        color: white;
+        font-family: "Norse-bold";
+        width:30.5%;
+        text-align: center;
+        height: 15%;
+        font-size: 6rem;
+    }
+    
+    .grass{
+        width:100%;
+        height: 100%;
+        object-fit: contain;    
+    }
+</style>
+</html>
